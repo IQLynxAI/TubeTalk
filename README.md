@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://github.com/IQLynxAI/TubeTalk/blob/f78d2f6ba71313c52a8f9c5f9a1607f67ef2c625/images/1.png" alt="App Screenshot 1" width="90%" />
+  <img src="https://github.com/IQLynxAI/TubeTalk/blob/f78d2f6ba71313c52a8f9c5f9a1607f67ef2c625/images/1.png" alt="1" width="90%" />
 </div>
 
 <div align="center">
-  <img src="https://github.com/IQLynxAI/TubeTalk/blob/f78d2f6ba71313c52a8f9c5f9a1607f67ef2c625/images/2.png" alt="App Screenshot 2" width="90%" />
+  <img src="https://github.com/IQLynxAI/TubeTalk/blob/f78d2f6ba71313c52a8f9c5f9a1607f67ef2c625/images/2.png" alt="2" width="90%" />
 </div>
 
 # **TalkToTube**
