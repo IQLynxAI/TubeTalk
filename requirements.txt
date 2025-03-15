@@ -1,0 +1,11 @@
+streamlit
+yt-dlp
+whisper
+faiss-cpu
+numpy
+nltk
+rank-bm25
+sentence-transformers
+transformers
+torch
+google-generativeai
