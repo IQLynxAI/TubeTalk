@@ -205,5 +205,7 @@ For questions or feedback, feel free to reach out:
 - **Name**: IQLynxAI
 - **Email**: contact@iqlynxai.com
 - **GitHub**: [IQLynxAI](https://github.com/IQLynxAI)
+- **Linkedin**: [IQLynxAI](https://www.linkedin.com/company/iqlynxai/)
+- **Instagram**: [IQLynxAI](https://www.instagram.com/iqlynx.ai/)
 
 ---
