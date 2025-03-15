@@ -5,12 +5,6 @@ from utils.downloader import download_audio
 from utils.faiss_utils import store_in_faiss, hybrid_search_with_gemini
 from utils.logger import logger
 
-"""
-Main Streamlit application for YouTube Video Q&A with AI.
-This app allows users to input a YouTube video URL, process the video's audio, transcribe it,
-and interact with the transcript using AI-powered question answering.
-"""
-
 st.title("🎥 YouTube Video Q&A with AI")
 
 video_url = st.text_input("🔗 Enter YouTube Video URL")
@@ -19,10 +13,7 @@ if st.button("Process Video"):
     if video_url:
         with st.spinner("Downloading and processing video..."):
             try:
-                """
-                Downloads the audio from the provided YouTube URL, transcribes it, and stores the transcript
-                in a FAISS vector database for semantic search. Displays a summary of the transcript.
-                """
+
                 audio_path, video_id = download_audio(video_url)
                 st.session_state['video_id'] = video_id
                 transcript = transcribe_audio(audio_path)
@@ -38,11 +29,6 @@ if st.button("Process Video"):
                 st.error("Failed to process video. Check logs for details.")
 
 if "video_id" in st.session_state:
-    """
-    Displays the chat interface for interacting with the processed video.
-    Users can ask questions about the video, and the app retrieves answers using
-    a hybrid search approach (FAISS + BM25) and refines the response using Gemini.
-    """
     st.write("## 🗣️ Chat with the Video")
     user_input = st.text_input("Ask a question about the video")
 
