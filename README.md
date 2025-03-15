@@ -1,3 +1,8 @@
+<div align="center">
+  <img src="https://github.com/IQLynxAI/TubeTalk/blob/f78d2f6ba71313c52a8f9c5f9a1607f67ef2c625/images/1.png" alt="App Screenshot 1" width="45%" />
+  <img src="https://github.com/IQLynxAI/TubeTalk/blob/f78d2f6ba71313c52a8f9c5f9a1607f67ef2c625/images/2.png" alt="App Screenshot 2" width="45%" />
+</div>
+
 # **TalkToTube**
 
 🎥 **YouTube Video Q&A with AI** is a Streamlit-based application that allows users to ask questions about YouTube videos. The app uses AI models like Whisper for transcription, Sentence Transformers for embeddings, FAISS for semantic search, and Gemini for generating answers. It’s a powerful tool for extracting insights from video content.
